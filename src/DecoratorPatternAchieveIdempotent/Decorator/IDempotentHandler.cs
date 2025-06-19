@@ -3,17 +3,19 @@ using DecoratePattern.Services;
 
 namespace DecoratePattern.Decorator
 {
-    public class IDempotentHandler<TDomainEvent>(IDomainEventHandler<TDomainEvent> domainEventHandler)
+    public class IdempotentHandler<TDomainEvent>(IDomainEventHandler<TDomainEvent> domainEventHandler)
         :DomainEventHandler<TDomainEvent>
         where TDomainEvent : IDomainEvent
     {
         public override Task HandleAsync(TDomainEvent domainEvent)
         {
-            Console.WriteLine("Start dempotent!");
+            Console.WriteLine("Start Idempotent!");
+
+            //use domainEvent context to check if the event has been processed 
 
             domainEventHandler.HandleAsync(domainEvent);
 
-            Console.WriteLine("End dempotent!");
+            Console.WriteLine("End Idempotent!");
 
             return Task.CompletedTask;
         }

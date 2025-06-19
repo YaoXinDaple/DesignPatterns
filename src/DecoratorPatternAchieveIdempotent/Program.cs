@@ -38,7 +38,7 @@ foreach (var domainEventHandler in domainEventHandlers)
         Type domainEvent = handlerInterface.GetGenericArguments()[0];
 
         // 创建装饰器类型
-        Type idempotentHandler = typeof(IDempotentHandler<>).MakeGenericType(domainEvent);
+        Type idempotentHandler = typeof(IdempotentHandler<>).MakeGenericType(domainEvent);
 
         // 注册装饰器
         builder.Services.Decorate(handlerInterface, idempotentHandler);
