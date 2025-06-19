@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPatternRealWorldUsag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPatternRegularExample", "BuilderPatternRegularExample\BuilderPatternRegularExample.csproj", "{40AC0F06-35FC-613C-9383-ABAA7CCE7DB6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +35,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{104673CA-3C2C-4C85-352C-C4DC9153F010} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{31DD0660-92AD-478B-8D9A-9555915C4F58} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{40AC0F06-35FC-613C-9383-ABAA7CCE7DB6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D6C8CC0-2B1F-4BB9-B58F-F598693921C1}
