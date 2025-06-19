@@ -11,6 +11,20 @@ can build a object with a chain of methods
 usage from LemonInvoiceSuite project 
 build a OperationLog instance with levels of menu,make sure instance must have a first level menu,then can have a second level menu etc.
 
+## Command Pattern
+see readme file under project for CommandPattern usage
+
+## Decorator Pattern
+see readme file under project for DecoratorPattern usage
+
+## Observer Pattern
+see readme file under project for ObserverPattern usage
+
+## Proxy Pattern
+see readme file under project for ProxyPattern usage
+
+## Responsibility Chain Pattern
+see readme file under project for ResponsibilityChainPattern usage
 
 ## Strategy Pattern
 regular example of strategy pattern usage
