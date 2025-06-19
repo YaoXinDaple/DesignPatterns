@@ -19,12 +19,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "src\ProxyPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "src\StrategyPattern\StrategyPattern.csproj", "{1DA25BE2-6707-F2BE-BCA0-B97719A612B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsibleChainPattern", "src\ResponsibleChainPattern\ResponsibleChainPattern.csproj", "{08D34797-CF9D-05C3-6ABF-1945D2298742}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{952B3ECF-AB98-465C-AB67-643E639B843A}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		README.md = README.md
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsibleChainPattern", "src\ResponsibleChainPattern\ResponsibleChainPattern.csproj", "{08D34797-CF9D-05C3-6ABF-1945D2298742}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartupProject", "src\StartupProject\StartupProject.csproj", "{656D6F87-6476-DF2C-A51C-61BD427B1872}"
 EndProject
